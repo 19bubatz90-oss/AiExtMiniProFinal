@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="api_key"
+        android:title="API-Key"
+        android:summary="OpenRouter API-Key" />
+    <SwitchPreference
+        android:key="dark_mode"
+        android:title="Dark Mode"
+        android:summaryOn="Aktiviert"
+        android:summaryOff="Deaktiviert" />
+    <ListPreference
+        android:key="language"
+        android:title="Sprache"
+        android:entries="@array/languages"
+        android:entryValues="@array/language_values" />
+    <SwitchPreference
+        android:key="non_logging"
+        android:title="Non‑Logging Modus"
+        android:summaryOn="Keine Spuren"
+        android:summaryOff="Spuren erlaubt" />
+    <SwitchPreference
+        android:key="save_history"
+        android:title="Verlauf speichern"
+        android:summaryOn="Speichern aktiv"
+        android:summaryOff="Speichern inaktiv" />
+    <SeekBarPreference
+        android:key="temperature"
+        android:title="Temperatur"
+        android:min="0"
+        android:max="100"
+        android:defaultValue="30" />
+    <SeekBarPreference
+        android:key="max_tokens"
+        android:title="Max. Token"
+        android:min="100"
+        android:max="2000"
+        android:defaultValue="1024" />
+</PreferenceScreen>

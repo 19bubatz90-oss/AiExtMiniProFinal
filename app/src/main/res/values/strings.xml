@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AiExtMini Pro</string>
+    <string name="send">Senden</string>
+    <string name="hint_message">Nachricht eingeben…</string>
+    <string name="menu_change_key">API-Key ändern</string>
+    <string name="menu_clear_history">Verlauf löschen</string>
+    <string name="menu_toggle_language">Sprache umschalten</string>
+    <string name="menu_toggle_darkmode">Dark Mode umschalten</string>
+    <string name="menu_toggle_nologging">Non‑Logging Modus</string>
+    <string name="menu_toggle_history">Verlauf speichern</string>
+    <string name="menu_export">Exportieren</string>
+    <string name="title_settings">Einstellungen</string>
+    <string name="pref_language">Sprache</string>
+    <string name="pref_darkmode">Dark Mode</string>
+    <string name="pref_nologging">Non‑Logging</string>
+    <string name="pref_history">Verlauf speichern</string>
+    <string name="pref_temperature">Temperatur</string>
+    <string name="pref_max_tokens">Max. Token</string>
+    <string name="api_key_dialog_title">OpenRouter API-Key</string>
+    <string name="api_key_dialog_message">Bitte gib deinen API-Key ein (er wird verschlüsselt gespeichert).</string>
+    <string name="api_key_saved">✅ API-Key gespeichert.</string>
+    <string name="history_cleared">🗑️ Verlauf gelöscht.</string>
+    <string name="error_save">❌ Fehler beim Speichern der Nachricht.</string>
+    <string name="error_network">❌ Netzwerkfehler</string>
+    <string name="status_typing">… tippt</string>
+    <string name="non_logging_active">🔒 Non‑Logging aktiv – keine Spuren</string>
+    <string name="logging_active">📝 Verlauf wird gespeichert</string>
+    <string name="export_success">Export erfolgreich</string>
+</resources>
