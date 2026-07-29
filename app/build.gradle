@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 android {
     namespace 'com.aiextminipro'
-    buildFeatures { buildConfig true viewBinding true }
     compileSdk 34
     buildToolsVersion "34.0.0"
     defaultConfig {
@@ -13,6 +12,10 @@ android {
         buildConfigField "String", "API_URL", "\"https://openrouter.ai/api/v1/chat/completions\""
         buildConfigField "String", "DEFAULT_MODEL", "\"meta-llama/llama-3.3-70b-instruct:free\""
         buildConfigField "double", "TEMPERATURE", "0.3"
+    }
+    buildFeatures {
+        viewBinding true
+        buildConfig true
     }
     buildTypes {
         debug { minifyEnabled false }
